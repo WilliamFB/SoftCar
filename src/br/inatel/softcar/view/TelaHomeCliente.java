@@ -24,16 +24,17 @@ public class TelaHomeCliente extends javax.swing.JFrame {
     }
 
     private void CarregarDados() {
+        
         jRadioButton2.setSelected(true);
         ButtonGroup jRadioGroupLivres = new javax.swing.ButtonGroup();
         //0 -> LIVRE  1 -> OCUPADO
 
-        if (valorNoBancoDoEspaco1 = 1)
-            jRadioGroupLivres.add(jRadioButton1);
+        /*if (valorNoBancoDoEspaco1 = 1){
+            jRadioGroupLivres.add(jRadioButton1);}
         else {
             jRadioButton1.setSelected(true);
             jRadioButton1.setEnabled(false);
-        }       
+        }   */    
     }
 
     /**
