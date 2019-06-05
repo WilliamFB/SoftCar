@@ -21,7 +21,7 @@ public class CadastroVeiculo extends javax.swing.JFrame {
      * Creates new form CadastroVeiculo
      */
     public CadastroVeiculo() {
-        setLocationRelativeTo(null);
+        //setLocationRelativeTo(null);
         initComponents();
     }
 
